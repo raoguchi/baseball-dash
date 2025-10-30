@@ -1,0 +1,7 @@
+pandas
+numpy
+pybaseball
+scikit-learn
+plotly
+pyarrow
+streamlit

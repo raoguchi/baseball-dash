@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: pitchxy
+Version: 0.1.0
+Summary: Handedness-aware pitch archetypes & scouting cards (XY ride/drop vs arm/glove side)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pybaseball
+Requires-Dist: scikit-learn
+Requires-Dist: plotly
+Requires-Dist: pyarrow
+Requires-Dist: streamlit

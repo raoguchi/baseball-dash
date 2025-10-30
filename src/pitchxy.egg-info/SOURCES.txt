@@ -1,0 +1,7 @@
+pyproject.toml
+src/pitchxy.egg-info/PKG-INFO
+src/pitchxy.egg-info/SOURCES.txt
+src/pitchxy.egg-info/dependency_links.txt
+src/pitchxy.egg-info/entry_points.txt
+src/pitchxy.egg-info/requires.txt
+src/pitchxy.egg-info/top_level.txt

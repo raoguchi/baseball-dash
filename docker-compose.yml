@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  pitchxy:
+    build: .
+    image: pitchxy:latest
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./data:/app/data              # cache persisted on host
+      - ./artifacts:/app/artifacts    # outputs on host
+    environment:
+      - PYTHONPATH=/app/src

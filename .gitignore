@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# compiled / native artifacts
+*.so
+*.dll
+*.dylib
+
+# local data & outputs
+data/
+artifacts/
+
+# misc
+.DS_Store
+EOF

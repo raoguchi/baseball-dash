@@ -1,0 +1,25 @@
+[project]
+name = "pitchxy"
+version = "0.1.0"
+description = "Handedness-aware pitch archetypes & scouting cards (XY ride/drop vs arm/glove side)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "pandas",
+  "numpy",
+  "pybaseball",
+  "scikit-learn",
+  "plotly",
+  "pyarrow",
+  "streamlit"  # needed for HF Space app below
+]
+
+[project.scripts]
+pitchxy = "pitchxy.cli:main"   # <-- console entry point
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
