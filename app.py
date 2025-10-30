@@ -1,3 +1,7 @@
+import os, sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
+
 import streamlit as st
 import pandas as pd
 from data import load_statcast, default_window
@@ -5,9 +9,7 @@ from featurize import infer_ivb_sign, engineer_pitch_features
 from model import fit_kmeans, nearest_comps
 from tags import xy_cluster_tags
 from plots import movement_scatter_xy, radar_quality
-import os, sys
 
-sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 
 st.set_page_config(page_title="PitchXY (Handedness-Aware)", layout="wide")
 st.title("⚾ PitchXY — Handedness-Aware Pitch Archetypes & Scouting Cards")
