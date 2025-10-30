@@ -159,3 +159,4 @@ def xy_cluster_tags(df_with_clusters: pd.DataFrame) -> dict[int, str]:
         tags[c] = f"{dom_pt}: {shape} • " + " / ".join(flavor)
 
     return tags
+

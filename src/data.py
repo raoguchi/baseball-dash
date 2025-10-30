@@ -26,3 +26,4 @@ def load_statcast(start_date: str, end_date: str, force: bool = False) -> pd.Dat
         df = df[df["pitch_type"].notna()]
     df.to_parquet(cp, index=False)
     return df
+

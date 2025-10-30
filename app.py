@@ -192,3 +192,4 @@ with tab3:
         st.markdown(f"#### {row['pitch_type']} comps")
         comps = nearest_comps(row, df_fit, scaler, nn, within_pitch_type=True, k=6)
         st.dataframe(comps, use_container_width=True)
+
