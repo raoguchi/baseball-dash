@@ -9,9 +9,11 @@ __pycache__/
 *.dylib
 
 # local data & outputs
-data/
-artifacts/
 
 # misc
 .DS_Store
 EOF
+
+# keep only cache you track with LFS
+data/
+!data/cache/
